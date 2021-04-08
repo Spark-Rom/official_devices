@@ -1,0 +1,18 @@
+- [Kernel] Updated Kernel to Predator X4.4 - 4.4.263 Release
+- [WLAN] Optimize 5GHz
+- [WFD] Fixed Wifi Display
+- [GPS] Fixed 3D GPS Navigation "Offline GPS"
+- [DRM] Completely fixed Netflix with L1
+- [Thermal] Switch to wayne thermal blobs
+- [Thermal] Loosen up thermal throttling thresholds to fix thermal issues like slow charging charging, etc
+- [Overlays] Updated some vibration patterns from pixel 2
+- [Overlays] Removed all-caps text for buttons
+- [Overlays] Add SimpleDeviceConfig from ProtonAOSP
+- [I/O Rap] Improve apps launch time
+- [Power HAL] Tune schedtune boost to match redfin SPP2
+- [CPU] Add dynamic stune boost and input boost
+- [Prop] Optimized shutdown time by a bit
+- [SurfaceFlinger] Switched to AOSP SurfaceFlinger "smoother than CAF"
+- [General] Switch to sdfat driver for exfat
+- [SEPolicy] Fix some camera denials
+- [Power HAL] Fix AUDIO_LAUNCH log spam
