@@ -1,0 +1,5 @@
+Switched FP redfin to FP sunfish
+Switched selinux permissive to enforcing selinux
+Upstreamed NextKernel 
+Fixed FPS Info 
+Explicitly enable iorap
