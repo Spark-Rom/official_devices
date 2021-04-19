@@ -1,164 +1,53 @@
-Changelog for V2.0 Aka lightning which comes with April security patch.
-
-
-Bug Fixes :
-
-• Fixed an issue with apns not being able to change
-
-
-• Fixed an issue with power off torch not to work
-
-• Fixed an issue with type clock making the SystemUI crash.
-
-• Fixed an issue with screen recording being laggy
-
-• Fixed some Anrs
-
-Ui Changes :
-
-• Redesigned Fireworks Customization menu.
-
-• Added mobile data usage to qs footer
-
-• Removed that ugly about page inside Fireworks
-
-• Made the auto brightness icon suit the system style
-
-• Removed some ugly
-icons in Fireworks and added New ones that Match the system Style
-
-Feature Additions :
-
-• Added Ota updater inside the os which you can find by going into settings/system/Spark updater
-
-• Added Face unlock
-
-• Added. A theming section into Fireworks where you can customize your phone but changing qs tile style , dark mode style , font , icon shape , icon pack , switch style , volume panel style , qs tile style and last but not least inbuilt gvisual mode.
-
-• Added asus long image implementation
-
-• Fixed some wakelocks
-
-• Enabled iorap for better app launching time
-
-• More network traffic positioning as long as style options.
-
-• Cyberpunk fod animation for fod devices.
-
-• Implemented ulta power saver aka flipendo.
-
-• SystemUI fod icon picker which comes with our fod icon designed by our team member Phil
-
-• Fod pressed color selector
-
-• Separated battery estimate from battery precent on qs
-
-• Added Double tap to trigger doze option
-
-• Option to hide Arrow for back gesture
-
-• Implemented click to take partial screenshot
-
-• Enabled Permission Hub 2.0
-
-• Added support for per app Network and fw isolation and restriction
-
-• Gaming Mode
-
-• Option to set swipe back deadzone
-
-• Option to disable advanced power menu
-
-• Doze brightness customization
-
-• More accent colors + accent color picker
-
-• Blur improvements
-
-• Edge light improvements
-
-• More qs tiles
-
-• Moved battery icon to qs header
-
-• Signature spoofing option
-
-• More charging styles
-
-• Charging style improvements for fod devices
-
-• Added Toggle to hide status bar on lock screen
-
-• Optional screenshot type
-
-• Ported Ambient now playing music from pixel
-
-• Option to change lock screen media artwork blur level.
-
-• Phone ringtone Settings for multi sim Devices
-
-• Added capability to allow tethering To use Vpn Upstreams
-
-• Sensor block per package
-
-• Gesture bae radius customization
-
-• Added Option to schedule Aod
-
-• Introduced Automated dc dimming
-
-• Added squary htc like clock.
-
-Building stuff :
-
-• Fixed some annoying errors about cryptsfw and etc
-
-• Fixed changelog generation Spamming different warnings
-
-• Removed some useless aosp logspam
-
-• Improvements to room service tool.
-
-• Added repopick tool to pick changes from out gerrit without a hassle
-
-• Added more overlays on Stuff repo.
-
-Device Changelog
-
-Device Changelog for spark Os v2.0:
-
-• Upstreamed to latest vantom kernel
-
-• Added Anime pop up sounds
-
-• Improved Idle drain
-
-• Optimized dex flags for faster boot times
-
-• Added seamless doze state transitions
-
-• Pocket lock improvements
-
-• Auto brightness improvements
-
-• Enabled seamless transfer
-
-• Enabled free form windows
-
-• Removed camera app from getting pinned into memory
-
-• Decreased gboard Ime height
-
-• Updated thermal profile icons
-
-• Configure sq lite to operate into memory mode
-
-• Kcal settings improvements
-
-• Added a Better flashing message
-
-• Added support for Alipay and Wechat fingerprint payment
-
-• Improvements to hiding magisk
-
-• Enable iorap
+Changelog for v3.0 aka (Thunder)
+
+Bug Fixes:
+• Fixed an issue with double tap to sleep not acting as it should 
+• Fixed an issue with op launcher crashing after clicking clear all button
+• Removed Duplicate Clear all Button
+• Fixed an issue while clicking bt icon in volume panel to cause systemUI crash
+
+UI Changes:
+• Redesigned Themes Section on Fireworks
+• Redesigned qs to looks closer to oos
+• Added a oos like header to Settings page 
+• Removed colored notification icons
+• Redesigned Dark theme options 
+• Added animations to setting menus
+
+Feature Additions:
+• More responsive fod animations 
+• Option for the user to choose 4th action in power menu
+• Option to set transparency of qs panel
+• Option to Set qs background and colors according to wallpaper
+• Added oos like lock screen clock 
+• Option to Make qs media player a notification
+• Options to choose qs tile tinting ( Android 12, Oos 11, Accent color)
+• Added Reticker 
+• Added more fod icons and animations and replaced some low quality ones 
+• Sharper white and yellow fod pressed colors
+• Added Oos volume  and small mobile data icons
+• Added app lock 
+• Added wifi and Bluetooth time out feature
+• Added Don't touch my head's up feature
+• Added option to set max lock screen notification count
+• Added Miui Volume panel option
+• Added smart charging and smart cut off
+• Added screenshot quality options
+• Added option to show fp icon under keyguard clock. ( only for devices with physical fp sensor)
+• Added machine learning back gesture from a12 developer preview
+• Added dynamic volte and vowifi icons
+• Made qs tile icons more beautiful
+• Added option to choose status bar background type
+• Added Pulse music as inbuilt music player app
+• Added option to show music album as qs player background
+• Added back Data usage slice
+• Added  time spent in app in wellbeing
+
+Device Changelog: 
+
+• Switched to user Build
+• Safetynet passes now without magisk 
+• Fixed padding on statusBar 
+• Added automated DC dimming tile
+• Upstreamed to latest Vantom so no more bsods
+• Added Jojo pop up sounds
