@@ -1,53 +1,43 @@
-Changelog for v3.0 aka (Thunder)
+Changelog for v4.0 a.k.a Blaze
 
 Bug Fixes:
-• Fixed an issue with double tap to sleep not acting as it should 
-• Fixed an issue with op launcher crashing after clicking clear all button
-• Removed Duplicate Clear all Button
-• Fixed an issue while clicking bt icon in volume panel to cause systemUI crash
+• Fixed an issue with indicators on wifi and LTE icon be stuck 
+• Fixed some touch  issues on miui volume panel
+• Fixed some systemUI crashes
+• Fixed an issue with live wallpapers causing systemUI crash
+• Fixed an issue with no charging animation being shown on power off charging
+• Fixed an issue with showing Ambient lights on aod option getting disabled 
 
-UI Changes:
-• Redesigned Themes Section on Fireworks
-• Redesigned qs to looks closer to oos
-• Added a oos like header to Settings page 
-• Removed colored notification icons
-• Redesigned Dark theme options 
-• Added animations to setting menus
+ Feature Additions:
+• Removed reticker and added ticker (more stable , more options)
+• Added option To make colored sb and header icons optional
+• Fixed some wrong default values in Fireworks
+• Added more visualizer options 
+• Added seekbar for notification background opacity 
+• Added options for heads up snooze , timeout , blacklist
+• Added some more options for  edge light
+• Added option to use Aod icons on lockscreen 
+• Made ide clock more big and well shaped 
+• Added some missing permissions to SystemUI
+• Added clockertino clock
+• Rearranged Qs tiles
+• Added a dark overlay behind artwork background
+• Added Animated Ambient indication view
+• Added oos filled vibrate icon in SB
+• Added a more glass like blur
+• improvements to clip board access toast
+• Switched to Lawnchair as default launcher on vanilla builds
+• Updated Stitch image apk
+• Added call recording  dark theme and more settings to aosp dialer 
+• Fixed a slight visual bug when flashing the Rom
+• Made the Oos qs tile icon a little bigger 
+• Added more options for devices with refresh rate switching support
 
-Feature Additions:
-• More responsive fod animations 
-• Option for the user to choose 4th action in power menu
-• Option to set transparency of qs panel
-• Option to Set qs background and colors according to wallpaper
-• Added oos like lock screen clock 
-• Option to Make qs media player a notification
-• Options to choose qs tile tinting ( Android 12, Oos 11, Accent color)
-• Added Reticker 
-• Added more fod icons and animations and replaced some low quality ones 
-• Sharper white and yellow fod pressed colors
-• Added Oos volume  and small mobile data icons
-• Added app lock 
-• Added wifi and Bluetooth time out feature
-• Added Don't touch my head's up feature
-• Added option to set max lock screen notification count
-• Added Miui Volume panel option
-• Added smart charging and smart cut off
-• Added screenshot quality options
-• Added option to show fp icon under keyguard clock. ( only for devices with physical fp sensor)
-• Added machine learning back gesture from a12 developer preview
-• Added dynamic volte and vowifi icons
-• Made qs tile icons more beautiful
-• Added option to choose status bar background type
-• Added Pulse music as inbuilt music player app
-• Added option to show music album as qs player background
-• Added back Data usage slice
-• Added  time spent in app in wellbeing
+For Builders:
+• Fixed qti bt inclusions
+• Added support for devices with physical fp sensor on power button
 
-Device Changelog: 
+Device Changelog
 
-• Switched to user Build
-• Safetynet passes now without magisk 
-• Fixed padding on statusBar 
-• Added automated DC dimming tile
-• Upstreamed to latest Vantom so no more bsods
-• Added Jojo pop up sounds
+• Performance improvements
+• Upstreamed sunfish fp
