@@ -1,0 +1,2 @@
+Upstreamed kernel to 4.4.271-Halcyon-eas 
+Fixed IR
