@@ -1,0 +1,2 @@
+- Fixed broken fortal camera
+- Fixed device certification.
