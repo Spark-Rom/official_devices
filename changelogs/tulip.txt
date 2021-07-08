@@ -1,2 +1,3 @@
-Upstreamed kernel to 4.4.271-Halcyon-eas 
-Fixed IR
+Changed to Mystic 4.4.274 kernel
+Changed to user build (CTS OK, bank apps ok)
+Fixed brightness steps.
