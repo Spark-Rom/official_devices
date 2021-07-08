@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": "1623214094",
-      "filename": "Spark-vInferno-tulip-OFFICIAL-gapps-20210609.zip",
-      "id": "89ba1b70cd9c593ea077aadaec3a7884",
-      "size": "1280177259",
-      "url": "https://downloads.spark-os.live/tulip/Spark-vInferno-tulip-OFFICIAL-gapps-20210609.zip",
+      "datetime": "1625754557",
+      "filename": "Spark-vFlare-tulip-OFFICIAL-gapps-20210708.zip",
+      "id": "6955ea592fd59f3660d45cbfb9f59703",
+      "size": "1261615486",
+      "url": "https://downloads.spark-os.live/tulip/Spark-vFlare-tulip-OFFICIAL-gapps-20210708.zip",
       "romtype": "gapps",
-      "version": "Inferno"
+      "version": "Flare"
     }
   ]
 }
