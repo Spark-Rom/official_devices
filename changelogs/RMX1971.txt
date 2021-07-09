@@ -1,145 +1,69 @@
-Changelog for v4.0, codenamed Blaze
+Changelog for Spark-OS v6.0 a.k.a Flare
+
+UI Stuff:
+• Made Fireworks icon match dashboard style
+• Revamped Fireworks UI Owo
+• Bolte Story Chapter 2
 
 Bug Fixes:
-• Fixed an issue with indicators on WiFi and LTE icon be stuck 
-• Fixed some touch  issues on miui volume panel
-• Fixed some SystemUI crashes
-• Fixed an issue with live wallpapers causing systemUI crash
-• Fixed an issue with no charging animation being shown on power off charging
-• Fixed an issue with showing Ambient lights on aod option getting disabled 
-
- Feature Additions:
-• Removed reticker and added ticker (more stable , more options)
-• Added option to make colored SB and header icons optional
-• Fixed some wrong default values in Fireworks
-• Added more visualizer options 
-• Added seekbar for notification background opacity 
-• Added options for heads up snooze , timeout , blacklist
-• Added some more options for  edge light
-• Added option to use AOD icons on lockscreen 
-• Increased size of IDE clock and made it better shaped 
-• Added some missing permissions to SystemUI
-• Added clockertino clock
-• Rearranged QS tiles
-• Added a dark overlay behind artwork background
-• Added Animated Ambient indication view
-• Added OOS filled vibrate icon in SB
-• Added a more glass like blur
-• Improvements to clip board access toast
-• Switched to Lawnchair as default launcher on vanilla builds
-• Updated Stitch image apk
-• Added call recording  dark theme and more settings to aosp dialer 
-• Fixed a slight visual bug when flashing the Rom
-• Made the OOS QS tile icon a little bigger 
-• Added more options for devices with refresh rate switching support
-
-Changelog for Spark-OS v5.0 a.k.a Inferno
-
-Bug Fixes:
-• Fixed an issue that safetynet won't pass on non-user builds.
-• Fixed issues with playback on some apps.
-• Addressed some more SELinux denials
-• Fixed some issues with non-colored SB icons
-• Fixed an issue with lock icon never appearing in lock screen
-• Fixed issues with some icons being black on lockscreen and quick settings.
-• Removed media artwork background on QS media player (Lead to System UI crashes for some devices)
-• Added CPU Info and Compass QS tiles
-• Made RGB accent picker affect more stuff 
+• Fixed an issue with qs tiles refreshing all the time
 • Fixed a system UI restart when disconnecting and connecting headphones
-• Hopefully fixed the issue where some customization gets reset after a restart on some devices
-• Fixed an issue with QS tiles acting abnormally on System UI restart
-• Fixed an issue with with battery stats resetting after reboot
-• Fixed an issue with screenshot and camera sound persist when phone is silent
-• Fixed unreadable Shapeshift clock thumbnail
-
 
 Feature Additions:
-• Added music ticker
-• Added kill button to conversation guts
-• Improved colors of the screenshot UI.
-• Updated Material colors
-• Hide Media Art when media isn't playing
-• Added support for per app volume (works only on AOSP panel)
-• Added Octavi, Java IDE and Type Alt clocks
-• Updated Default FOD icon
-• Redesigned toasts
-• Made pocket mode similar to OxygenOS
-• Synced  icons from OOS
-• Added Option to center notification headers
-• Made P404 clock smaller
-• Added leaf icon shape
-• Added option to record screen for a longer duration
-• Redesigned VoLTE and VoWiFi icons 
-• Added Orono clock
-• Added MNML based clock designs
-• Added option for lockscreen blur
-• Improvement for doze on charge
-• Added Russian translations
-• Added Notch City (Notch options for Notched Devices)
-• Added rounded corners settings
-• Added VPN QS tile
-• Introduce Fluid style switches
-• Made media seek bar more appealing
-• Added Suspend Actions settings  when screen is off
-• Added Fluid clock v2
-• Improvements on Volume panel Plugins 
-• Increased top padding on media switch
-• Added options for custom padding for the status bar
-• Removed QS handle
-• Fixed issue with answering calls on some apps
-• Tint more stuff on QS
-• Redesigned QS Panel
-• Added optional OxygenOS 11 QS clock
-• Made clocks aware of media playing state.
-• Added some OnePlus clocks
-• Added option for animated FOD icon
-• Speed up lockscreen animations
-• Fixed screenshot sharing with longshot and launcher
-• Added QS header data usage
-• Option for power menu opacity
-• Added Support for Font dynamic service
-• Improvements to Volume panel
-• Added Descendant Clock switch
-• Updated our Spark icons (About phone FOD icon Icons on Settings)
-• Added long swipe options 
-• Disabled QS player by default
-• Added wakelock and Alaram blocker (Experimental)
-• Switched to the original Pixel for google photos spoof
-• Added options to hide camera location and microphone on stausbar
-• Added Ambient music indication from redfin
-• QS detail improvements
-• Added SBC codec
-• Removed Lottie animations
-• Updated Settings preview videos from redfin
-• Added option for one shot auto brightness
-• Added bouncy Scroll View from OOS
-• Redesigned settings (Added options to choose the style the user wants)
-• Revamped settings search 
-• Made Fireworks Fragments Searchable
-• Added back arrow on Fireworks settings 
-• Switched to Our launcher for Vanilla builds
-• Added unlock sounds from Oos
-• Updated OP cosmsos animation
-• Removed pulse music
-• Properly added Support for call recording on aosp dialer 
-• Added options for Black theme on AOSP Contacts app
-• Enabled Blur for all devices by default
-• Updated Default colors
-• Redesigned Storage Settings
+• Bringed back Old music ticker (More options more stability)
+• Fixed some charging issues like charging indicator not changing or showing duplicate status
+• Introduced Nav Bar Styles
+• Fixed some icons being black
+• Dropped Accent preset overlays
+• Added notification counter option
+• Improved refresh rate stuff
+• Added option to Set Custom fod icon
+• Added Livedisplay
+• Added some more clocks (A12 ones)
+• Added Livedisplay
+• Made Vendor mismatch message optional
+• Thin lto and o3 optimizations for faster building compilation and run-time performance
+• Nuked some fonts and Clear theme
+• Added Android s style switches
+• Options for wallpaper based accent colors thnx to Nezuko Owo
+• Added eh  4 new volume panels
+• Made  Per app volume to work with all volume panels (Beta)
+• Made spark Yellow the Default accent
+• Scrolling improvements
+• Made build property spoofing more reliable
+• Introduced Brightness Slider Styles
+• App lock Improvements
+• Merged latest Caf changes for bt
+• Redesigned Qs clock and qs values in general
+• Made seamless rotation working while pip is active
+• Made Unlock and Lock sounds sexier
+• Added Wifi usage on op qs footer
+• Redesigned Clock picking options in Fireworks
+• Some icon padding improvements
+• Made battery precent being shown left to the battery like oos
+• Made Asus Stich Image default screenshot service
+• Added Volte and Vowifi icon Customizations
+• Improved Pocket mode Layout
+• Added toggle for clear all icon
+• Added Clear all icon Styles
+• Added On the Go Mode qs tile and option for power menu
+• Switched to Pasty for upload crash info RIP DogBin
+• Blur improvements for Spark launcher
+• Ship Via and Google sound picker by default
+• Implemented Qs Media Player Styles
+• Added back haptic feedback gesture options 
 
-Device Changelog: 
+Device Changelog:
 
-• Introduced Realmeparts 
-• Move RealmeParts to system
-• Update RealmeParts icon to be more minimalistic
-• Update calibration image (Goodbye Karen)
-• Update Pixel offline charging reset
-• Fix 2% battery drop
-• Bump to June Redfin FP
-• Set correct device model name
-• Update Charging rapidly string to VOOC charging 
-• Better Ram Management 
-• Disable Mobile data by default
-• Define rounded corner for keyboard
-• Better keyboard layout 
-• More of which i am too lazy to type . . .
+• Inital official release.
+• Switched to user build.
+• July security patch.  
+• Bump to July RedFin Fingerprint.
+• Added KharaMe Dirac.
+• Added KCAL.
+• Added FPS QS tile.
+• KharaMe Parts now follow Accent colour.
+• Kernel upstreamed to 4.9.273.
+• Fixed 2% battery drop issue.
+• Fixed battery health.
+• Switched backed to KharaMe Kernel.
