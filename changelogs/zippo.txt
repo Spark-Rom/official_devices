@@ -1,0 +1,64 @@
+Changelog for Spark-OS v6.0 a.k.a Flare
+
+UI Stuff:
+• Made Fireworks icon match dashboard style
+• Revamped Fireworks UI Owo
+• Bolte Story Chapter 2
+
+Bug Fixes:
+• Fixed an issue with qs tiles refreshing all the time
+• Fixed a system UI restart when disconnecting and connecting headphones
+
+Feature Additions:
+• Bringed back Old music ticker (More options more stability)
+• Fixed some charging issues like charging indicator not changing or showing duplicate status
+• Introduced Nav Bar Styles
+• Fixed some icons being black
+• Dropped Accent preset overlays
+• Added notification counter option
+• Improved refresh rate stuff
+• Added option to Set Custom fod icon
+• Added Livedisplay
+• Added some more clocks (A12 ones)
+• Added Livedisplay
+• Made Vendor mismatch message optional
+• Thin lto and o3 optimizations for faster building compilation and run-time performance
+• Nuked some fonts and Clear theme
+• Added Android s style switches
+• Options for wallpaper based accent colors thnx to Nezuko Owo
+• Added eh  4 new volume panels
+• Made  Per app volume to work with all volume panels (Beta)
+• Made spark Yellow the Default accent
+• Scrolling improvements
+• Made build property spoofing more reliable
+• Introduced Brightness Slider Styles
+• App lock Improvements
+• Merged latest Caf changes for bt
+• Redesigned Qs clock and qs values in general
+• Made seamless rotation working while pip is active
+• Made Unlock and Lock sounds sexier
+• Added Wifi usage on op qs footer
+• Redesigned Clock picking options in Fireworks
+• Some icon padding improvements
+• Made battery precent being shown left to the battery like oos
+• Made Asus Stich Image default screenshot service
+• Added Volte and Vowifi icon Customizations
+• Improved Pocket mode Layout
+• Added toggle for clear all icon
+• Added Clear all icon Styles
+• Added On the Go Mode qs tile and option for power menu
+• Switched to Pasty for upload crash info RIP DogBin
+• Blur improvements for Spark launcher
+• Ship Via and Google sound picker by default
+• Implemented Qs Media Player Styles
+• Added back haptic feedback gesture options 
+
+Device Changelog:
+
+• Kernel 4.14.238 "Moderna" by @kanstmablason
+• Added FPS info overlay
+• Fixed deep sleep issue after using BT devices like smartwatchs
+• Update Redfin fingerprint from July
+• Fixed charging issue related to fast charge
+• Drop DeviceSettings and support LiveDisplay
+• Switch to ArrowOS qcom-caf HALs
