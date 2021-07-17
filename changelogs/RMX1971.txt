@@ -96,5 +96,5 @@ Feature Additions:
 
 Device Changelog:
 • Fixed FPS Counter.
-• Kernel updtreamed to 4.9.271.
+• Kernel updtreamed to 4.9.274.
 
