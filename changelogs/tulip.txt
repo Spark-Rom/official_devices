@@ -1,3 +1,2 @@
-Changed to Mystic 4.4.274 kernel
-Changed to user build (CTS OK, bank apps ok)
-Fixed brightness steps.
+Changed Kernel to 4.4.273 Halcyon EAS-v5.7
+
