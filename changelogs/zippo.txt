@@ -55,46 +55,10 @@ Feature Additions:
 
 Device Changelog:
 
-• Inital official release.
-• Switched to user build.
-• July security patch.  
-• Bump to July RedFin Fingerprint.
-• Added KharaMe Dirac.
-• Added KCAL.
-• Added FPS QS tile.
-• KharaMe Parts now follow Accent colour.
-• Kernel upstreamed to 4.9.273.
-• Fixed 2% battery drop issue.
-• Fixed battery health.
-• Switched back to KharaMe Kernel.
-
-Changelog for v6.9 Hotfix Update (Hotfix = Mostly bug fixes and some more stuff)
-
-Bug Fixes:
-• Fixed Some choppiness and Lag that shouldn't be there.
-• Improved Android S clocks
-• Fixed That Yellow accent Being everywhere
-• Removed Font service and replaced it with old good fonts 
-• Fixed Some issues With Vowifi icons 
-• Nuked Monet (for now)
-• Fixed Qs clock overlapping stuff 
-• Added Missing Square icon pack 
-• Removed Custom sb padding options
-• Fixed some Dialer Issues
-• Fixed Weird padding with Dnd on 
-• Fixed some issues with Battery Estimates
-
-Feature Additions: 
-
-• Added Re ticker
-• Slimmed Down qs date
-• Added Spanish translations
-• Introduced our own A12 Brightness Slider Style
-• Added Pulse 💦💦 (Super duper extreme visualizer)
-• Redesigned main settings header and spacer
-• Bolte Chapter 3
-
-Device Changelog:
-• Fixed FPS Counter.
-• Kernel updtreamed to 4.9.274.
-
+• Kernel 4.14.238 "Moderna" by @kanstmablason
+• Added FPS info overlay
+• Fixed deep sleep issue after using BT devices like smartwatchs
+• Update Redfin fingerprint from July
+• Fixed charging issue related to fast charge
+• Drop DeviceSettings and support LiveDisplay
+• Switch to ArrowOS qcom-caf HALs
