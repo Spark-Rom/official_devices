@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": "1617768951",
-      "filename": "Spark-vLightning-raphael-OFFICIAL-gapps-20210407.zip",
-      "id": "c5189ff96aa231de0445043fa8e96d5e",
-      "size": "1200608811",
-      "url": "https://downloads.spark-os.live/raphael/Spark-vLightning-raphael-OFFICIAL-gapps-20210407.zip",
+      "datetime": "1626579179",
+      "filename": "Spark-vFlare-raphael-Official-gapps-20210718.zip",
+      "id": "89d18e1c5540351668128f8ba00cbc58",
+      "size": "1640379184",
+      "url": "https://downloads.spark-os.live/raphael/Spark-vFlare-raphael-Official-gapps-20210718.zip",
       "romtype": "gapps",
-      "version": "Lightning"
+      "version": "Flare"
     }
   ]
 }

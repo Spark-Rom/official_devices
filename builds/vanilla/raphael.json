@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": "1617758260",
-      "filename": "Spark-vLightning-raphael-OFFICIAL-vanilla-20210407.zip",
-      "id": "8017cf2250f2d4c7264c8887fbd170ee",
-      "size": "946546458",
-      "url": "https://downloads.spark-os.live/raphael/Spark-vLightning-raphael-OFFICIAL-vanilla-20210407.zip",
+      "datetime": "1626584138",
+      "filename": "Spark-vFlare-raphael-Official-vanilla-20210718.zip",
+      "id": "0529c3f85cb8d6d57ed81dc2c8273e8d",
+      "size": "1204981427",
+      "url": "https://downloads.spark-os.live/raphael/Spark-vFlare-raphael-Official-vanilla-20210718.zip",
       "romtype": "vanilla",
-      "version": "Lightning"
+      "version": "Flare"
     }
   ]
 }
