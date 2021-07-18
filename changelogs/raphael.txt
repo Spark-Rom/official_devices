@@ -1,1 +1,291 @@
-Inital build
+====================
+     07-18-2021
+====================
+
+
+   * device/xiaomi/raphael
+81ff380 update graphics blobs to LA.UM.9.1.r1-10200-SMxxx0.0
+21604ea Revert "raphael: Switch Skia rendering backend to Vulkan"
+
+====================
+     07-17-2021
+====================
+
+
+   * device/qcom/sepolicy-legacy
+2e3d1639 sepolicy-legacy: Add sepolicy support for FM domain switch
+
+   * packages/apps/Fireworks
+e0784cc Bump Bolte Chapter
+57a001a Fireworks: Properly Sort Navbar Styles
+
+   * packages/apps/Settings
+6186dcb5d6 Settings: Redesign with Collapsing Toolbar + Useful resources from oos
+
+   * vendor/spark
+e4ad7b2 Merge branch 'fire' of https://github.com/Spark-Rom/platform_vendor_spark into HEAD
+9ada043 vendor_spark: Bump version to 6.9
+
+   * vendor/xiaomi/raphael
+63dfbc4 update graphics blobs to LA.UM.9.1.r1-10200-SMxxx0.0
+
+====================
+     07-16-2021
+====================
+
+
+   * device/qcom/sepolicy
+3415a281 Revert "sepolicy: Label vendor.qcom.bluetooth props"
+366dbe63 sepolicy: Label vendor.qcom.bluetooth props
+
+   * device/qcom/sepolicy-legacy
+789d4b68 sepolicy-legacy: Label vendor.qcom.bluetooth props
+
+   * frameworks/base
+e185b93a976 SystemUI: Qqs Slim Down the Date
+0b0b002316e Revert "SystemUI: Allow setting Custom statusbar Paddings [1/2]"
+
+   * kernel/xiaomi/raphael
+aa25ae6f8 dimlayer
+435c2b444 sched: walt: hardcode 4.19 backport values
+1c1177a5e Revert "Revert "WIP:disp: msm: Implement fod dim layer sysfs node""
+
+   * packages/apps/Fireworks
+89c60d0 Fireworks: Nuke Custom Sb Padding
+35df12a Fireworks: Add es translation
+ed40454 Fireworks: Make strings out of some elements
+
+   * vendor/spark
+3aad0c3 Merge pull request #21 from Lowxorx/fire
+
+====================
+     07-15-2021
+====================
+
+
+   * art
+fa48dd1d7d [SQUASH] Remove Thin Lto Changes [4/7]
+
+   * bionic
+f03090c3b [SQUASH] Revert Thin Lto [3/7]
+
+   * frameworks/base
+63932c114f0 Merge branch 'fire' of https://github.com/Spark-Rom/frameworks_base into HEAD
+31a3f502aac Overlays:Rebuild Missing Square icon pack
+ad80952c209 Merge pull request #11 from chematelegram/fire
+4b1df7e7212 fwb: Add es translation
+284d4968950 [SQUASH] Remove Thin Lto [1/7]
+5fe9704a992 Restore "bypass lockscreen after face unlock" preference
+5ece3891497 DataSwitchTile: Improve the code
+cbf8ad3c98b PhoneStatusBarPolicy: Show battery level for all devices
+9b789868111 reTicker: add AOSP Dialer also to blacklist
+90ffac87e81 Reticker: Remove some logging
+cd97c2d4989 reTicker: Add youtube to blacklisted apps to avoid getting a null notification
+7275fc43ec0 Feature: reticker [1/2]
+9489db0b13a fwb: silence *negative delta from freq time proc* log spam
+315e2f1d156 SystemUI: Change heads up ticker text style to match clock
+29641878e86 Extend Pulse to Ambient Screen [1/2]
+8bc08e625f6 LS/Nav Pulse: Solid render: Fix another solid render FC
+0dd920c10aa LS/Nav Pulse: Solid render: fix FC when changing units value
+6fc2dfd3aaf LS/Nav Pulse: Solid render: fix FC when changing smoothness option
+a57782c9b76 LS/Nav Pulse: Use background ui executor to link the session
+2b96df5ab24 LS/Nav Pulse: Clean up redundant audio session id
+9dddb25856d LS/Nav Pulse: Consolidate functions and fix NPE
+467091e08cc Pulse initial checkin for Android 11 [1/2]
+98588f1a929 [SQUASH] Remove Visualizer
+
+   * manifest
+65d9362 [SQUASH] Remove Thin Lto [2/7]
+f74e352 Merge pull request #1 from dakkshesh07/fire
+
+   * packages/apps/Fireworks
+9b8b711 Merge branch 'fire' of https://github.com/Spark-Rom/packages_apps_Fireworks into HEAD
+1deec4f Fireworks: reticker [2/2]
+5b7d60e Extend Pulse to Ambient Screen [3/3].
+3c6b69e Pulse initial checkin for Android 11 [2/2]
+2ab22ea Fireworks: Remove prev Visualizer Implementation
+0aceec6 Fireworks:Introduce A12 Brightness Slider [2/2]
+fe6e0f6 Fireworks: Nuke Monet
+c0bfd3a Fireworks: Remove Roaming Indicator
+86531c2 Fireworks: Remove Icon Space for fonts
+733d254 Fireworks: Adress A typo
+d6a52bf Fireworks: Remove Deprecetated imports
+b2f821c Fireworks: Nuke Font Service [2/5]
+53e59a7 Fireworks: Introduce RGB accenter 3.0 [2/2]
+
+   * packages/apps/Settings
+06f6009d47 Merge pull request #4 from chematelegram/fire
+5f01184e06 Settings: Add es translation
+1a94e45350 Merge branch 'fire' of https://github.com/Spark-Rom/packages_apps_Settings into HEAD
+58589ad5c0 Restore "bypass lockscreen after face unlock" preference
+
+   * packages/apps/ThemePicker
+1a97776 Merge pull request #1 from chematelegram/fire
+d96a723 ThemePicker: Add es translation
+
+   * packages/apps/Updater
+f73d2fb Updater: Fixup es translation
+9c7f2dd Merge pull request #4 from chematelegram/fire
+8620d12 Updater: Add es translation
+
+   * tools/extract-utils
+b49ac3f extract_utils: Add "check_elf_files: false" also for binaries
+
+   * vendor/codeaurora/telephony
+dd246ff Keep old APIs for Auto Reject
+9ad8b4a IMS: Define constants related to call progress info
+5bf70b2 IMS: Support Video Customized Ringing Signal and SIP DTMF
+be21bb6 Modify APIs to allow 3rd option for Auto Reject
+ade26de Add APIs to set and query NR config.
+
+   * vendor/spark
+9ec1bb8 Added lmi to the list of official devices
+cd46e52 Revert "build: Enable Global ThinLTO and ThinLTO cache"
+
+====================
+     07-14-2021
+====================
+
+
+   * frameworks/base
+ae9539ce8ca base: Add button to upload crash information to katbin
+ec1f729b4c4 [SQUASH] Revert prev Dogbin impl
+3d46efc7f16 Revert "fixup! Add Android S Clocks"
+
+   * kernel/xiaomi/raphael
+2816d8311 ASoC: msm-pcm-routing-v2: Fix non-blocking if-statement warning
+4a2786b93 crypto: aes - Use ___cacheline_aligned for aes data
+9231fc7b4 Merge remote-tracking branch 'utsav/android11-base' into 11.0
+36e569ca3 Revert "Revert "ANDROID: security,perf: Allow further restriction of perf_event_open""
+fb1049575 Revert "Merge tag '475198853ebe9d165eda1ad461f5df131645b80a' into android11-base"
+
+   * manifest
+9593e7b spark.xml: track proton clang
+
+   * packages/apps/Settings
+330aebf377 Revert "Settings: Sound: Add volume panel on left toggle"
+
+====================
+     07-13-2021
+====================
+
+
+   * frameworks/base
+21b05ee209d Merge branch 'fire' of https://github.com/Spark-Rom/frameworks_base into HEAD
+7242019499a fixup! Add Android S Clocks
+573d400a247 PrivacyChip: Do not change view on expand
+627caad5a04 SystemUI: Properly align owner info on Android S clocks
+16d4ed962bd layout: android-s-clock: remove drop shadows
+2c4563dc76c Fixup Qs Detail With OOs Clock
+d5b9e4d3f91 Introduce A12 Brightness Slider [1/2]
+
+   * hardware/interfaces
+8035cb926 wifi: Add provision to create/remove dynamic interface(s).
+
+   * kernel/xiaomi/raphael
+7ec8387f5 BACKPORT: ext4: optimize file overwrites
+71971dd9f f2fs: Enlarge min_fsync_blocks to 20
+e0dba02be qcacld-3.0: Fix warnings caused by mismatched function parameter types
+45d8d4354 msm: camera: Fix trivial misleading indentation warnings
+3089472dc Merge tag '8ba9bfb341df3150b5100eab979503d5900ed2f0' into android11-base
+7bcf1fcbd Merge tag '55371867f4f0f9519229649ce42ff82b49fe30c6' into android11-base
+
+   * packages/apps/Contacts
+cb37a79f0 Merge 'lineage-18.1' into 11.0
+
+   * packages/apps/Dialer
+4e33f7872 Dialer: Add bottom navbar icons
+7a81039ac Color: don't make it black
+f44a11921 Dialer: Revamp swipes to new functionalities
+409badaaf Dialer: revamp with OOS like UI
+
+   * vendor/spark
+2f73692 vendor_spark: Correctly build navbar styles
+b06dc97 Merge branch 'fire' of https://github.com/Spark-Rom/platform_vendor_spark into HEAD
+9fa00de vendor_spark: Checkout Fonts from https://github.com/ShapeShiftOS/android_vendor_ssos
+b7b2854 Merge pull request #20 from topes1/enchilada-flare
+96988f5 Added enchilada to the list of official devices
+00ddc89 Merge pull request #18 from glassydan/fire
+b0372fb Add support for Mi A1 (Tissot)
+
+====================
+     07-12-2021
+====================
+
+
+   * frameworks/base
+2a78c39d64c Revert "base: Perform accent prop set in UiModeManagerService"
+7838c019fa1 Revert "Improve applying Accent colors"
+121be3ee5e0 Revert "Base: Wallpaper based accent colors [1/2]"
+
+   * vendor/spark
+2dccaac Merge pull request #17 from dakkshesh07/fire
+8b6cea7 vendor: spark devices: add support for RMX1921
+
+====================
+     07-11-2021
+====================
+
+
+   * frameworks/base
+0f31f9c764d AccentUtils: Affect More stuff
+4997937ec0a Adaptations to New Font Implementation [2/2]
+
+   * packages/apps/Settings
+719570d509 Adaptations for New font Method [1/2] Revert "Replace header sub font"
+
+====================
+     07-10-2021
+====================
+
+
+   * frameworks/base
+2f298e68747 [SQUASH] Remove Font Service [1/5]
+56bb0b64074 base: Dont override aosp estimates
+6e0719aa556 Revert "[SQUASH] Bring back Activity Indicators from oos"
+0f3d51e7bb9 AndroidSClockController: set clock text color based on wallpapers
+438343806ab IDE clock: fix the C++ syntax and format
+4e35e1932be Fix Weird Padding With Dnd
+046fc987d4d Fix Volte Padding Issues
+bf5ed5b401d RGB Accenter: Link dark & light color to single string settings
+956e8cc2cc6 base: Introduce RGB accenter 3.0 [1/2] [AgentFabulous - POSP] - Compared to v1 and v2 of accenter on older versions of android, other   than just build fixes, this implementation completely deprecates use   of props. Instead, we use settings. - When it comes to reading settings without proper contexts, early on in   the boot process, we may have no ContentProviders or ContentResolvers.   To address this, we simply try catch and bail as necessary, returning   the real resource. When things have been setup nicely by the zygote   setup, there will be no more exceptions and all relevant color   resources will be overriden as expected
+e25e6510294 Remove Rgb Accenter
+576b10dc378 base: enable doze by default
+9b186e822b5 base: Add bool to enable/disable doze by default
+54fce4a44bb PowerManager: Add proximity check on wake
+c36b337de2d AndroidSClockController: fix NPE in setSlice
+db21b2ce64d AndroidSClockController: fix NPE in onAnimationUpdate
+
+   * packages/apps/Fireworks
+ebc9956 Nuke Rgb Accenter
+
+   * packages/apps/Settings
+5e00d67ad3 [SQUASH] Nuke Font Service [3/5]
+
+   * vendor/spark
+bbd8e95 vendor_spark: Nuke Font Service [5/5]
+
+====================
+     07-09-2021
+====================
+
+
+   * frameworks/base
+cc0757dc429 EdgeBackGestureHandler: Remove duplicate definition of mVibrator
+dc6628f0a78 [SQUASH] Bring back Activity Indicators from oos
+360357effdb SystemUI: Use EFFECT_HEAVY_CLICK for back swipe gestures
+0692eb7ffb4 SystemUI: Optional haptic feedback on back gesture [1/2]
+
+   * packages/apps/Fireworks
+7679651 Fireworks: Bring Back Roaming Indicator
+328e25a Fireworks: Reorganize Ui Section
+
+   * packages/apps/Settings
+0b85f8ba56 Merge pull request #2 from K0rtus/patch-1
+e57a187420 Merge pull request #1 from K0rtus/fire
+6f5ca7b0e5 Revert "Revert "Settings: Optional haptic feedback on back gesture [1/2]""
+
+   * vendor/spark
+d561cfb vendor_spark: Properly Support sm8250 Platform
+94f47e9 Bring Back Some Fonts
+
