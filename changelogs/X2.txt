@@ -1,0 +1,5 @@
+Device Changelogs :-
+
+• Removed Realme Parts
+• Reduced Screen off Delay
+• Added Option to Hide Notch [ Can find it in Developer Option -> Display Cutout]
