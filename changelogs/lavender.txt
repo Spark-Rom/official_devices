@@ -1,44 +1,103 @@
-Changelog for v3.0 aka (Thunder)
+Changelog for v7.0 Update (Mist) based on August security patch
 
+====================================
+			Device Changes			
+====================================
+- [Kernel] Introduce Chips EAS Kernel v4.4.280
+	- based on predator stormbreaker x4.6
+
+- [Kernel] Silent lmkd logspam
+
+- [SoundTrigger] Update audio configs and enable soundtrigger
+  - Well, some people reported that they can't use Ok Google and stuff, this is now completely fixed.
+
+- [Overlays] Don’t enforce RRO for all overlays
+  - Fixed /product/overlay.
+  - This makes many platform specific overlays with current system API on vendor partition which breaks newer android version compatibilities (broken stuffs in gsis).
+
+- [zRAM] Update and optimize zRAM configuration
+  - post_boot: Ensure SLAB_STORE_USER is disabled for zram kmem_caches
+  - post_boot: update zRAM setting avoid 32 bit overflow
+
+- [Power HAL] General optimizations
+  - Relax memlat from post_boot and let libperfmgr handles it
+  - powerhint: Decrease launch boost to 3sec
+  - powerhint: Remove interaction boosts
+    - Fixes `E: Slow writing to file: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq' with value: '1113600'`
+  - libperfmgr.rc: Let power hal start early
+  - libperfmgr.rc: perfmgr now change dex2oat priorities along with overriding readahead to 128KiB after post-boot
+
+- [General] Reduced jitter
+  - Less time opening Twitter photos, etc.
+
+- [Power HAL] Major improvements
+  - [Powerhint] Switched to `sysctl` to control energy aware
+    - Energy aware feature control is previously done through debugfs,
+    which will be deprecated, so move the control to sysctl.
+  - [Powerhint] Bring back `interaction`, without the bugged ones
+    - Bugged: `CPULittleClusterMinFreq`
+  - [Powerhint] Adjustments
+    - `idle_timer` 80 → 64
+    - `TASchedtuneBoost` 20 → 10
+    - General `LAUNCH`duration 3000 → 2500
+
+====================================
+			Source Changes			
+====================================
 Bug Fixes:
-• Fixed an issue with double tap to sleep not acting as it should 
-• Fixed an issue with op launcher crashing after clicking clear all button
-• Removed Duplicate Clear all Button
-• Fixed an issue while clicking bt icon in volume panel to cause systemUI crash
+• Fixed some crashes at Settings
+• Fixed some fcs while connecting to a wifi network
+• Massively improved qs panel code.
+• Fixed icons being black at lockscreen
+• Made package cache always being wiped at upgrade
+• Granted Pulse some missing permissions
+• Improved Rounded Corners
+• Made Q's customizer bg black
+• Improved app lock
+• Stopped using yellow as default color 
+• Fixed Some typos at Fireworks
+• Nuked gestures string from settings
+• Added missing  accessibility section on oos10 dashboard  icons 
+• Removed deprecated toggle for volume panel on left
+• Fixed status icon activity crash
+• Fixed on the go crashing when being long pressed 
+• Nuked some useless debugging
 
-UI Changes:
-• Redesigned Themes Section on Fireworks
-• Redesigned qs to looks closer to oos
-• Added a oos like header to Settings page 
-• Removed colored notification icons
-• Redesigned Dark theme options 
-• Added animations to setting menus
-
-Feature Additions:
-• More responsive fod animations 
-• Option for the user to choose 4th action in power menu
-• Option to set transparency of qs panel
-• Option to Set qs background and colors according to wallpaper
-• Added oos like lock screen clock 
-• Option to Make qs media player a notification
-• Options to choose qs tile tinting ( Android 12, Oos 11, Accent color)
-• Added Reticker 
-• Added more fod icons and animations and replaced some low quality ones 
-• Sharper white and yellow fod pressed colors
-• Added Oos volume  and small mobile data icons
-• Added app lock 
-• Added wifi and Bluetooth time out feature
-• Added Don't touch my head's up feature
-• Added option to set max lock screen notification count
-• Added Miui Volume panel option
-• Added smart charging and smart cut off
-• Added screenshot quality options
-• Added option to show fp icon under keyguard clock. ( only for devices with physical fp sensor)
-• Added machine learning back gesture from a12 developer preview
-• Added dynamic volte and vowifi icons
-• Made qs tile icons more beautiful
-• Added option to choose status bar background type
-• Added Pulse music as inbuilt music player app
-• Added option to show music album as qs player background
-• Added back Data usage slice
-• Added  time spent in app in wellbeing
+Feature Additions: 
+• Improved Ssos panel and Nez panel
+• Added edge music controls
+• Made Fonts Affect third party apps (Requires a reboot after applying the font)
+• Updated Vibration icon
+• Added Time refresh capabilities to Android s clock
+• Redesigned Battery meter view (Huge thanks to Fluid)
+• Added Mac Address Firewall
+• Implemented Monetwannabe (Huge thanks to dot)
+• Switched to dynamic Volte and Vowifi icons
+• Implemented  Dynamic
+Volte and Vowifi icon picker 
+• Added Oos small data type icons
+• Improved Network traffic monitor
+• Improved Fps Info
+• Nuked smart space and switched to omnijaws
+• Speeded some Animations
+• Added ability to permanently hide apps from recents
+• Added Switch to last app long swipe option
+• Improved incall vibration options + flashlight on call
+• Added battery saver profiles as well as sleep mode (thnx to havoc). And aggressive battery saver
+• Added Ssos 12 clock
+• Improved Ls notification padding
+• Implement a tile to open fireworks
+• Implement optional collapsed toolbar on settings.homepage
+• introduced optional media artwork bg
+• Made night light transition more gradual
+• Nuked Colored sb icons 
+• Added wake on Plug toggle 
+• Implemented optional wallpaper color for s clocks
+• improved android S clock
+• Added navigation bar visibility option
+• Added Live previews for Fod animations
+• Implemented Live previews for Fod Icon Animations
+• Added Previews for Icon packs
+• Redesigned Dialer (thnx to octavi)
+• Updated Default wallpaper and boot animation
+• Some more things im forgetting
