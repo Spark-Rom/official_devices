@@ -1,31 +1,10 @@
-Updated to Spark V6.9
+Device especific changes
+-Re-wrote enchilada device tree using Lineage OS as a base for further stability and better source control;
+-Changed to use Luffy kernel for better battery life, but it's something thats a wip;
+-Updated said Luffy kernel to v4.19.259;
+-Updated to use Pixel 5 build fingerprint.
 
-Changelog for v6.9 Hotfix Update (Hotfix = Mostly bug fixes and some more stuff)
-
-Bug Fixes:
-• Fixed Some choppiness and Lag that shouldn't be there.
-• Improved Android S clocks
-• Fixed That Yellow accent Being everywhere
-• Removed Font service and replaced it with old good fonts 
-• Fixed Some issues With Vowifi icons 
-• Nuked Monet (for now)
-• Fixed Qs clock overlapping stuff 
-• Added Missing Square icon pack 
-• Removed Custom sb padding options
-• Fixed some Dialer Issues
-• Fixed Weird padding with Dnd on 
-• Fixed some issues with Battery Estimates
-
-Feature Additions:
-
-• Added Re ticker
-• Slimmed Down qs date
-• Added Spanish translations
-• Introduced our own A12 Brightness Slider Style
-• Added Pulse  (Super duper extreme visualizer)
-• Redesigned main settings header and spacer
-• Bolte Chapter 3 
-
-For Builders:
-
-• Kona platform won't need any special tweaks now for the hals to get built
+Common device tree
+-Re-wrote common device tree using Lineage OS as a base for further stability and better source control;
+-Changed from Device Settings to Device Extras;
+-Updated device Extras version to 4;
