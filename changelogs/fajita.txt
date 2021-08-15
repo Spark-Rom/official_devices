@@ -1,0 +1,7 @@
+Device especific changes
+-First release of Spark OS!
+
+Common device tree
+-Re-wrote common device tree using Lineage OS as a base for further stability and better source control;
+-Changed from Device Settings to Device Extras;
+-Updated device Extras version to 4;
