@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": "1626503413",
-      "filename": "Spark-vFlare-RMX1971-OFFICIAL-gapps-20210717.zip",
-      "id": "e17f63d2f651690334e4475518d41f49",
-      "size": "1443450954",
-      "url": "https://downloads.spark-os.live/RMX1971/Spark-vFlare-RMX1971-OFFICIAL-gapps-20210717.zip",
+      "datetime": "1629022718",
+      "filename": "Spark-vMist-RMX1971-OFFICIAL-gapps-20210815.zip",
+      "id": "1a7780124902a4ef15b7411ca1729208",
+      "size": "1458217185",
+      "url": "https://downloads.spark-os.live/RMX1971/Spark-vMist-RMX1971-OFFICIAL-gapps-20210815.zip",
       "romtype": "gapps",
-      "version": "Flare"
+      "version": "Mist"
     }
   ]
 }
