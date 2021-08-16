@@ -1,64 +1,72 @@
-Changelog for Spark-OS v6.0 a.k.a Flare
-
-UI Stuff:
-• Made Fireworks icon match dashboard style
-• Revamped Fireworks UI Owo
-• Bolte Story Chapter 2
+Changelog for v7.0 Update (Mist) based on August security patch
 
 Bug Fixes:
-• Fixed an issue with qs tiles refreshing all the time
-• Fixed a system UI restart when disconnecting and connecting headphones
+• Fixed some crashes at Settings
+• Fixed some fcs while connecting to a wifi network
+• Massively improved qs panel code.
+• Fixed icons being black at lockscreen
+• Made package cache always being wiped at upgrade
+• Granted Pulse some missing permissions
+• Improved Rounded Corners
+• Made Q's customizer bg black
+• Improved app lock
+• Stopped using yellow as default color 
+• Fixed Some typos at Fireworks
+• Nuked gestures string from settings
+• Added missing  accessibility section on oos10 dashboard  icons 
+• Removed deprecated toggle for volume panel on left
+• Fixed status icon activity crash
+• Fixed on the go crashing when being long pressed 
+• Nuked some useless debugging
 
 Feature Additions:
-• Bringed back Old music ticker (More options more stability)
-• Fixed some charging issues like charging indicator not changing or showing duplicate status
-• Introduced Nav Bar Styles
-• Fixed some icons being black
-• Dropped Accent preset overlays
-• Added notification counter option
-• Improved refresh rate stuff
-• Added option to Set Custom fod icon
-• Added Livedisplay
-• Added some more clocks (A12 ones)
-• Added Livedisplay
-• Made Vendor mismatch message optional
-• Thin lto and o3 optimizations for faster building compilation and run-time performance
-• Nuked some fonts and Clear theme
-• Added Android s style switches
-• Options for wallpaper based accent colors thnx to Nezuko Owo
-• Added eh  4 new volume panels
-• Made  Per app volume to work with all volume panels (Beta)
-• Made spark Yellow the Default accent
-• Scrolling improvements
-• Made build property spoofing more reliable
-• Introduced Brightness Slider Styles
-• App lock Improvements
-• Merged latest Caf changes for bt
-• Redesigned Qs clock and qs values in general
-• Made seamless rotation working while pip is active
-• Made Unlock and Lock sounds sexier
-• Added Wifi usage on op qs footer
-• Redesigned Clock picking options in Fireworks
-• Some icon padding improvements
-• Made battery precent being shown left to the battery like oos
-• Made Asus Stich Image default screenshot service
-• Added Volte and Vowifi icon Customizations
-• Improved Pocket mode Layout
-• Added toggle for clear all icon
-• Added Clear all icon Styles
-• Added On the Go Mode qs tile and option for power menu
-• Switched to Pasty for upload crash info RIP DogBin
-• Blur improvements for Spark launcher
-• Ship Via and Google sound picker by default
-• Implemented Qs Media Player Styles
-• Added back haptic feedback gesture options 
+• Improved Ssos panel and Nez panel
+• Added edge music controls
+• Made Fonts Affect third party apps (Requires a reboot after applying the font)
+• Updated Vibration icon
+• Added Time refresh capabilities to Android s clock
+• Redesigned Battery meter view (Huge thanks to Fluid)
+• Added Mac Address Firewall
+• Implemented Monetwannabe (Huge thanks to dot)
+• Switched to dynamic Volte and Vowifi icons
+• Implemented  Dynamic
+Volte and Vowifi icon picker 
+• Added Oos small data type icons
+• Improved Network traffic monitor
+• Improved Fps Info
+• Nuked smart space and switched to omnijaws
+• Speeded some Animations
+• Added ability to permanently hide apps from recents
+• Added Switch to last app long swipe option
+• Improved incall vibration options + flashlight on call
+• Added battery saver profiles as well as sleep mode (thnx to havoc). And aggressive battery saver
+• Added Ssos 12 clock
+• Improved Ls notification padding
+• Implement a tile to open fireworks
+• Implement optional collapsed toolbar on settings.homepage
+• introduced optional media artwork bg
+• Made night light transition more gradual
+• Nuked Colored sb icons 
+• Added wake on Plug toggle 
+• Implemented optional wallpaper color for s clocks
+• improved android S clock
+• Added navigation bar visibility option
+• Added Live previews for Fod animations
+• Implemented Live previews for Fod Icon Animations
+• Added Previews for Icon packs
+• Redesigned Dialer (thnx to octavi)
+• Updated Default wallpaper and boot animation
+• Some more things im forgetting
 
 Device Changelog:
 
-• Kernel 4.14.238 "Moderna" by @kanstmablason
-• Added FPS info overlay
-• Fixed deep sleep issue after using BT devices like smartwatchs
-• Update Redfin fingerprint from July
-• Fixed charging issue related to fast charge
-• Drop DeviceSettings and support LiveDisplay
-• Switch to ArrowOS qcom-caf HALs
+• Kernel 4.14.243 by @kanstmablason
+• Updated with Redfin fp from August
+• Fix A2DP with QTI BT stack
+• Use the right movement sensor for parts
+• Update Graphics stack
+• Update Wifi stack
+• Update IPA firmware
+• Update Snapdragon Computer Vision Engine stack
+• Update sensors stack from stock
+• Enabled Aptx TWS+
