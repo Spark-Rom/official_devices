@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": "1626599888",
-      "filename": "Spark-vFlare-X2-OFFICIAL-gapps-20210718.zip",
-      "id": "c39362fab717841fd56ae74021db0f17",
-      "size": "1244773763",
-      "url": "https://downloads.spark-os.live/X2/Spark-vFlare-X2-OFFICIAL-gapps-20210718.zip",
+      "datetime": "1630389075",
+      "filename": "Spark-vMist-X2-OFFICIAL-gapps-20210831.zip",
+      "id": "67badd51e6a1ebb673f5a9dd9afd86b3",
+      "size": "1265933336",
+      "url": "https://downloads.spark-os.live/X2/Spark-vMist-X2-OFFICIAL-gapps-20210831.zip",
       "romtype": "gapps",
-      "version": "Flare"
+      "version": "Mist"
     }
   ]
 }

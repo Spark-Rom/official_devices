@@ -1,5 +1,16 @@
 Device Changelogs :-
 
-• Removed Realme Parts
-• Reduced Screen off Delay
-• Added Option to Hide Notch [ Can find it in Developer Option -> Display Cutout]
+• Update Redfin FP to August
+• Upstreamed Kernel to 4.14.127 (compiled with Proton Clang)
+• Tweaked Statusbar Paddings
+• Import boot/runtime fs tuning from coral
+• Fixed Vilte & Wifi-Calling (thanks to retypolkg)
+• Kang EAS configuration from sunfish
+• start bootanimation on late-fs
+• Made Doze accessible from Realme Settings
+• Force Traffic Indicator on StatusBar
+• Bring Back WyroGcam by Default (only for Gapps)
+• Dropped SmartCharging as of now (Buggy)
+• Spoof for Google unlimited photos
+• Added LogTile in Realme Settings
+• Introduced Iorap for faster app opening speed
