@@ -1,2 +1,4 @@
-Changed Kernel to 4.4.273 Halcyon EAS-v5.7
+Changed Kernel to 4.4.283 Halcyon EAS-v5.8
+FP updated to redfin RQ3A.210905
+CTS pass without root or with root(Magisk Hide)
 
