@@ -1,10 +1,11 @@
-Device especific changes
--Re-wrote enchilada device tree using Lineage OS as a base for further stability and better source control;
--Changed to use Luffy kernel for better battery life, but it's something thats a wip;
--Updated said Luffy kernel to v4.19.259;
--Updated to use Pixel 5 build fingerprint.
+Device especific changes:
+-Vanilla build has been dropped.
 
-Common device tree
--Re-wrote common device tree using Lineage OS as a base for further stability and better source control;
--Changed from Device Settings to Device Extras;
--Updated device Extras version to 4;
+COMMON:
+-Rebased the whole tree to require OOS11 FW;
+-Updated Device Extras to version 4;
+-Changed over to BadKernel to address battery life;
+-Added kcal calibration;
+-Added panel modes from OOS11;
+-Updates the build fingerprint to that of the pixel 5;
+-Added polish.
