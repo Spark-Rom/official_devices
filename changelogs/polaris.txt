@@ -1,2 +1,2 @@
-Changed Kernel to 4.9.274-ThunderBird
-Changed to user build (CTS OK, bank apps ok)
+Kernel updated to 4.9.276
+CTS pass without root and with root (Magisk Hide)

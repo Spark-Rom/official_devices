@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": "1625859869",
-      "filename": "Spark-vFlare-polaris-OFFICIAL-gapps-20210709.zip",
-      "id": "625127847e9b5cefaa7849227e3b4534",
-      "size": "1340094690",
-      "url": "https://downloads.spark-os.live/polaris/Spark-vFlare-polaris-OFFICIAL-gapps-20210709.zip",
+      "datetime": "1632603167",
+      "filename": "Spark-vIgnite-polaris-OFFICIAL-gapps-20210925.zip",
+      "id": "81b06d3977c37404c052ce56d5abb142",
+      "size": "1377918341",
+      "url": "https://downloads.spark-os.live/polaris/Spark-vIgnite-polaris-OFFICIAL-gapps-20210925.zip",
       "romtype": "gapps",
-      "version": "Flare"
+      "version": "Ignite"
     }
   ]
 }
