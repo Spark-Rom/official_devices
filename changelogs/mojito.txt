@@ -1,0 +1,26 @@
+• Initial OSS Build  
+• Enable Battery Health and Address It's Denials 
+• Implemented Dirac/Mi Sound Enhancer [Under Sound Settings]
+• Implemented Clear Speaker [Under Sound Settings]
+• Implemented Per App Thermal Profiles [Under Battery]
+• Added Display Color Modes
+• Decreased Max Temp While Charging
+• Remove Virtual Frame Buffer
+• Switched To Prebuilt libcameraservice
+• Improved Status Bar Padding
+• Updated Device Cutout Corners
+• Updated brightness overlay configs 
+• Added camera cutout ring like MIUI
+• Added Xiaomi Mlipay Service Blobs
+• Fixed WFD
+• Bring Back Full Stack Of Audio AC DB
+• Update Blobs From V12.5.3.0.RKGMIXM
+• Smarter Decisions On Whether To Use 2/5Ghz AP
+• Disabled Wifi Firmware Logging
+• Disabled NUD Failure Occurs Loggin
+• Enabled Wi-Fi Hals Power Saving
+• Switched To Codec2 By Default
+• Enabled Codec2 Input Surface
+• Enabled dalvik dex2oat64
+• Improved Performance And Stability(not kidding)
+• Misc Changes And Fixes(Which u wont understand)
