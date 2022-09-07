@@ -2,7 +2,7 @@
 name: Device maintainership form
 about: Apply for official maintainership
 title: New maintainer
-assignees: [spkal01]
+assignees: [whyredfire] [spkal01]
 ---
 
 <!--
