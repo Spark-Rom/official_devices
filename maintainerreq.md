@@ -6,7 +6,7 @@ Before you apply to add your device into our list of official devices, you shoul
 
 2. You must have basic git (cherry-pick, squash, etc) knowledge.
 
-3. You must have a daily drivable **unofficial build released at least 1 week** before applying for official.
+3. You must have a daily drivable **unofficial build** before applying for official.
 
 4. **ALL** of your trees **MUST** be open source for us to check and in the future upload to devices org.
 
