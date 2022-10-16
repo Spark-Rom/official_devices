@@ -47,7 +47,7 @@ None
 Weeks/Months/Years
 ```
 
-## Did you properly read [Device stability requirements](https://github.com/Spark-Rom/official_devices/blob/eleven/requirements.md) and [Maintainer requirements](https://github.com/Spark-Rom/official_devices/blob/eleven/maintainerreq.md) before applying? What part of those requirements do you violate?
+## Did you properly read [Device stability requirements](https://github.com/Spark-Rom/official_devices/blob/pyro/requirements.md) and [Maintainer requirements](https://github.com/Spark-Rom/official_devices/blob/pyro/maintainerreq.md) before applying? What part of those requirements do you violate?
 ```
 I read everything properly and I violate none of the requirements.
 ```
